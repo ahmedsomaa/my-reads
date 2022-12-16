@@ -15,7 +15,7 @@ const BookShelf = ({ title, books, updateStore }) => {
                 title={title}
                 shelf={shelf}
                 authors={authors}
-                updat={updateStore}
+                updateStore={updateStore}
                 thumbnail={imageLinks.thumbnail}
               />
             </li>
