@@ -11,7 +11,7 @@ const MainPage = () => {
       const books = await getAll();
       setBooks(books);
     } catch (error) {
-      console.log(`[ERR] failed to fetch books because\n${error}`);
+      console.log(`[ERR] failed to fetch books\nReason: ${error}`);
     }
   }
 
