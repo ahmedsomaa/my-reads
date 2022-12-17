@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { search } from '../BooksAPI';
 import Book from '../components/Book';
 
@@ -34,9 +35,9 @@ const SearchPage = () => {
   return (
     <div className="search-books">
       <div className="search-books-bar">
-        <a href="/" className="close-search">
+        <Link to="/" className="close-search">
           Close
-        </a>
+        </Link>
         <div className="search-books-input-wrapper">
           <input
             type="text"
