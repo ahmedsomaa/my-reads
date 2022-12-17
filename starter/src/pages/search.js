@@ -55,7 +55,7 @@ const SearchPage = () => {
                     id={result.id}
                     title={result.title}
                     shelf={result.shelf}
-                    authors={result.authors}
+                    authors={result?.authors}
                     thumbnail={result?.imageLinks?.thumbnail}
                   />
                 </li>
